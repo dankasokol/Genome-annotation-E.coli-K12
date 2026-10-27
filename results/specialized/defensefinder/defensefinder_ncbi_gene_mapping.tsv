@@ -1,0 +1,24 @@
+sys_id	hit_id	defensefinder_model	start	end	strand	ncbi_locus_tag	ncbi_gene	ncbi_product	mapping_status	candidate_locus_tag	overlap_fraction
+1_Lit_3	1_1111	Lit__Lit	1198695	1199588	+	b1139	lit	cell death peptidase Lit	exact_coords_and_protein	b1139	1.0
+1_RM_Type_IV_9	1_1130	RM_Type_IV__Type_IV_05	1210346	1211179	+	b1159	mcrA	Type IV methyl-directed restriction enzyme EcoKMcrA	exact_coords_and_protein	b1159	1.0
+1_Hachiman_1	1_2589	Hachiman__HamB	2761351	2763540	-	b2627	abpB	putative helicase YfjK	exact_coords_and_protein	b2627	1.0
+1_Hachiman_1	1_2590	Hachiman__HamA_2	2763537	2765153	-	b2628	abpA	anti-bacteriophage protein	exact_coords_and_protein	b2628	1.0
+1_RnlAB_6	1_2591	RnlAB__RnlA	2765918	2766991	+	b2630	rnlA	RNase LS, toxin of the RnlAB toxin-antitoxin system	exact_coords_and_protein	b2630	1.0
+1_RnlAB_6	1_2592	RnlAB__RnlB	2766984	2767355	+	b2631	rnlB	antitoxin RnlB	exact_coords_and_protein	b2631	1.0
+1_CAS_Class1-Subtype-I-E_11	1_2706	cas2_I-E_2	2878569	2878853	-	b2754	cas2	CRISPR-associated endoribonuclease Cas2	exact_coords_and_protein	b2754	1.0
+1_CAS_Class1-Subtype-I-E_11	1_2707	cas1_I-E_1	2878855	2879772	-	b2755	cas1	multifunctional nuclease Cas1	exact_coords_and_protein	b2755	1.0
+1_CAS_Class1-Subtype-I-E_11	1_2708	cas6e_I_II_III_IV_V_VI_1	2879788	2880387	-	b2756	casE	pre-CRISPR RNA endonuclease	exact_coords_and_protein	b2756	1.0
+1_CAS_Class1-Subtype-I-E_11	1_2709	cas5_I-E_3	2880374	2881048	-	b2757	casD	type I-E CRISPR system Cascade subunit CasD	exact_coords_and_protein	b2757	1.0
+1_CAS_Class1-Subtype-I-E_11	1_2710	cas7_I-E_2	2881051	2882142	-	b2758	casC	type I-E CRISPR system Cascade subunit CasC	exact_coords_and_protein	b2758	1.0
+1_CAS_Class1-Subtype-I-E_11	1_2711	cse2gr11_I-E_1	2882155	2882637	-	b2759	casB	type I-E CRISPR system Cascade subunit CasB	exact_coords_and_protein	b2759	1.0
+1_CAS_Class1-Subtype-I-E_11	1_2712	cas8e_I-E_1	2882630	2884138	-	b2760	casA	type I-E CRISPR system Cascade subunit CasA	exact_coords_and_protein	b2760	1.0
+1_CAS_Class1-Subtype-I-E_11	1_2713	cas3_I_5	2884553	2887219	-	b2761	cas3	CRISPR-associated endonuclease/helicase Cas3	exact_coords_and_protein	b2761	1.0
+1_MazEF_4	1_2734	MazEF__MazF	2910756	2911091	-	b2782	mazF	endoribonuclease toxin MazF	exact_coords_and_protein	b2782	1.0
+1_MazEF_4	1_2735	MazEF__MazE	2911091	2911339	-	b2783	mazE	antitoxin of the MazF-MazE toxin-antitoxin system MazE	exact_coords_and_protein	b2783	1.0
+1_MazEF_5	1_4140	MazEF__MazE	4448447	4448698	+	b4224	chpS	ChpS antitoxin of the ChpB-ChpS toxin-antitoxin system	exact_coords_and_protein	b4224	1.0
+1_MazEF_5	1_4141	MazEF__MazF	4448728	4449042	+				same_stop_review	b4225	1.0
+1_RM_Type_IV_10	1_4262	RM_Type_IV__FAM_2	4576912	4577958	-	b4345	mcrC	Type IV methyl-directed restriction enzyme EcoKMcrBC subunit	exact_coords_and_protein	b4345	1.0
+1_RM_Type_IV_10	1_4263	RM_Type_IV__FAM_1	4577958	4579355	-				same_stop_review	b4346	0.9871
+1_RM_Type_I_8	1_4265	RM__Type_I_S_52	4580068	4581462	-	b4348	hsdS	type I restriction enzyme EcoKI specificity subunit	exact_coords_and_protein	b4348	1.0
+1_RM_Type_I_8	1_4266	RM__Type_I_MTases_FAM_2	4581459	4583048	-	b4349	hsdM	type I restriction enzyme EcoKI methylase subunit	exact_coords_and_protein	b4349	1.0
+1_RM_Type_I_8	1_4267	RM__Type_I_REases_FAM_2.einsi_trimmed	4583249	4586761	-	b4350	hsdR	type I restriction enzyme EcoKI endonuclease subunit	exact_coords_and_protein	b4350	1.0

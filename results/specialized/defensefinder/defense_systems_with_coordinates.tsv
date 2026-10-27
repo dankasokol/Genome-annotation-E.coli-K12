@@ -1,0 +1,10 @@
+sys_id	type	subtype	activity	sys_beg	sys_end	protein_in_syst	genes_count	name_of_profiles_in_sys	start_1based	end_1based	components	genome_ref
+1_Lit_3	Lit	Lit	Defense	1_1111	1_1111	1_1111	1	Lit__Lit	1198695	1199588	1	NC_000913.3
+1_RM_Type_IV_9	RM	RM_Type_IV	Defense	1_1130	1_1130	1_1130	1	RM_Type_IV__Type_IV_05	1210346	1211179	1	NC_000913.3
+1_Hachiman_1	Hachiman	Hachiman	Defense	1_2589	1_2590	1_2589,1_2590	2	Hachiman__HamA_2,Hachiman__HamB	2761351	2765153	2	NC_000913.3
+1_RnlAB_6	RnlAB	RnlAB	Defense	1_2591	1_2592	1_2591,1_2592	2	RnlAB__RnlA,RnlAB__RnlB	2765918	2767355	2	NC_000913.3
+1_CAS_Class1-Subtype-I-E_11	Cas	CAS_Class1-Subtype-I-E	Defense	1_2706	1_2713	1_2706,1_2707,1_2708,1_2709,1_2710,1_2711,1_2712,1_2713	8	cas1_I-E_1,cas2_I-E_2,cas3_I_5,cas5_I-E_3,cas6e_I_II_III_IV_V_VI_1,cas7_I-E_2,cas8e_I-E_1,cse2gr11_I-E_1	2878569	2887219	8	NC_000913.3
+1_MazEF_4	MazEF	MazEF	Defense	1_2734	1_2735	1_2734,1_2735	2	MazEF__MazE,MazEF__MazF	2910756	2911339	2	NC_000913.3
+1_MazEF_5	MazEF	MazEF	Defense	1_4140	1_4141	1_4140,1_4141	2	MazEF__MazE,MazEF__MazF	4448447	4449042	2	NC_000913.3
+1_RM_Type_IV_10	RM	RM_Type_IV	Defense	1_4262	1_4263	1_4262,1_4263	2	RM_Type_IV__FAM_1,RM_Type_IV__FAM_2	4576912	4579355	2	NC_000913.3
+1_RM_Type_I_8	RM	RM_Type_I	Defense	1_4265	1_4267	1_4265,1_4266,1_4267	3	RM__Type_I_MTases_FAM_2,RM__Type_I_REases_FAM_2.einsi_trimmed,RM__Type_I_S_52	4580068	4586761	3	NC_000913.3
