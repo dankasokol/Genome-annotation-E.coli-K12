@@ -1,0 +1,6 @@
+region	start_1based	end_1based	length_bp	PHASTEST_class	PHASTEST_score	phage_hits	predicted_proteins	hypothetical_proteins	GC_percent	attachment_site	phage_keywords	top_similarity_hit	known_MG1655_locus	curated_start_1based	curated_end_1based	curated_overlap_bp	curated_locus_covered_percent
+1	564755	586057	21303	questionable	90	24	29	1	43.27	yes	integrase,transposase,lysis,envelope,tail	PHAGE_Entero_lambda_NC_001416(6)	DLP12	564755	586056	21302	100.0
+2	1198640	1216671	18032	intact	100	18	21	0	44.65	yes	integrase,terminase,plate,tail,envelope	PHAGE_Shigel_SfIV_NC_022749(9)	e14	1196209	1211412	12773	84.01
+3	1411969	1434812	22844	questionable	80	23	28	0	46.67	yes	integrase,lysis,tail,transposase,recombinase	PHAGE_Shigel_POCJ13_NC_025434(4)	Rac	1411899	1434958	22844	99.06
+4	1618855	1653915	35061	intact	110	25	41	3	45.61	yes	recombinase,tail,envelope,lysin,transposase,integrase	PHAGE_Salmon_118970_sal3_NC_031940(6)	Qin	1632277	1652745	20469	100.0
+5	2465301	2477629	12329	incomplete	50	17	17	0	44.76	yes	integrase,tail	PHAGE_Shigel_SfIV_NC_022749(11)	CPS-53 (KpLE1)	2466369	2476583	10215	100.0

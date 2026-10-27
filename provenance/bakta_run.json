@@ -1,0 +1,46 @@
+{
+  "annotation_run": {
+    "runtime": "Docker",
+    "runtime_evidence": "User confirmation; Bakta log records Linux within the container",
+    "software": {
+      "bakta": "1.12.2",
+      "db": {
+        "version": "6.0",
+        "type": "light"
+      }
+    },
+    "timing": {
+      "start": "2026-10-22 20:43:48",
+      "end": "2026-10-22 20:48:23",
+      "duration": "4.58 min"
+    },
+    "command_inside_container": "/opt/conda/bin/bakta --db /db/db-light --output /work/results/structural/bakta --prefix ecoli --genus Escherichia --species coli --strain K-12 --complete --threads 4 /work/data/raw/genome.fna",
+    "original_docker_run_command": null,
+    "image_digest_recorded_at_run": null,
+    "database_archive_checksum_recorded_at_run": null,
+    "sources": [
+      "results/structural/bakta/ecoli.log",
+      "results/structural/bakta/ecoli.json"
+    ],
+    "log_sha256": "cc1b04643d7cc93c7b1f75c304a3fd46c66fe8ec6835db14d4e1c931a92f6678"
+  },
+  "local_image_inspection": {
+    "observed_on": "2026-10-27",
+    "repo_tags": [
+      "oschwengers/bakta:latest"
+    ],
+    "repo_digests": [
+      "oschwengers/bakta@sha256:1e24ae2f435c46f876a322298ab96d994d15aadc2824e1f16a77fa9a1bc07f18"
+    ],
+    "image_id": "sha256:1e24ae2f435c46f876a322298ab96d994d15aadc2824e1f16a77fa9a1bc07f18",
+    "created": "2026-10-11T18:55:57.656972091Z",
+    "platform": "linux/amd64",
+    "inspection_method": "docker image inspect oschwengers/bakta:latest (selected metadata fields)",
+    "identity_with_original_run_verified": false
+  },
+  "limitations": [
+    "The inspected image is the currently available local image; its identity with the image used on 2026-10-22 is not independently established.",
+    "The latest tag is mutable; the recorded repository digest identifies the inspected image.",
+    "The Bakta database was mounted separately and is not preserved by archiving the container image."
+  ]
+}

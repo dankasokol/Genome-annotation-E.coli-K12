@@ -1,0 +1,11 @@
+##gff-version 3
+##sequence-region contig_1 1 4641652
+contig_1	DefenseFinder	region	1198695	1199588	.	.	.	ID=DefenseFinder_1_Lit_3;Name=Lit;subtype=Lit;Note=computational_prediction_not_proof_of_activity
+contig_1	DefenseFinder	region	1210346	1211179	.	.	.	ID=DefenseFinder_1_RM_Type_IV_9;Name=RM;subtype=RM_Type_IV;Note=computational_prediction_not_proof_of_activity
+contig_1	DefenseFinder	region	2761351	2765153	.	.	.	ID=DefenseFinder_1_Hachiman_1;Name=Hachiman;subtype=Hachiman;Note=computational_prediction_not_proof_of_activity
+contig_1	DefenseFinder	region	2765918	2767355	.	.	.	ID=DefenseFinder_1_RnlAB_6;Name=RnlAB;subtype=RnlAB;Note=computational_prediction_not_proof_of_activity
+contig_1	DefenseFinder	region	2878569	2887219	.	.	.	ID=DefenseFinder_1_CAS_Class1-Subtype-I-E_11;Name=Cas;subtype=CAS_Class1-Subtype-I-E;Note=computational_prediction_not_proof_of_activity
+contig_1	DefenseFinder	region	2910756	2911339	.	.	.	ID=DefenseFinder_1_MazEF_4;Name=MazEF;subtype=MazEF;Note=computational_prediction_not_proof_of_activity
+contig_1	DefenseFinder	region	4448447	4449042	.	.	.	ID=DefenseFinder_1_MazEF_5;Name=MazEF;subtype=MazEF;Note=computational_prediction_not_proof_of_activity
+contig_1	DefenseFinder	region	4576912	4579355	.	.	.	ID=DefenseFinder_1_RM_Type_IV_10;Name=RM;subtype=RM_Type_IV;Note=computational_prediction_not_proof_of_activity
+contig_1	DefenseFinder	region	4580068	4586761	.	.	.	ID=DefenseFinder_1_RM_Type_I_8;Name=RM;subtype=RM_Type_I;Note=computational_prediction_not_proof_of_activity

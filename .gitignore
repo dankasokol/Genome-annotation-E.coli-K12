@@ -1,0 +1,34 @@
+# macOS и редакторы
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+.vscode/
+.idea/
+*~
+*.swp
+
+# Python и Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Локальные настройки и базы для повторного запуска аннотаторов
+.env
+.env.*
+!.env.example
+/databases/
+/data/databases/
+
+# Наборы RegulonDB хранятся локально; пояснение остаётся в репозитории.
+/results/regulatory/regulondb/*
+!/results/regulatory/regulondb/README.md
+
+# Временные превью; результаты и журнал Bakta сохраняем как источники.
+/notebook_previews/
+*.tmp

@@ -1,0 +1,33 @@
+{
+  "release": "v1.0-bakta-primary",
+  "primary_annotation": "Bakta independent FASTA-based prediction",
+  "genome_length_bp": 4641652,
+  "primary_bakta_cds": 4315,
+  "primary_bakta_features_total": 9378,
+  "hypothetical_proteins_Bakta": 234,
+  "enriched_CDS_rows": 4315,
+  "PHASTEST_predicted_regions": 5,
+  "DefenseFinder_predicted_systems": 9,
+  "DefenseFinder_components": 23,
+  "DefenseFinder_exact_matches_to_Bakta": 23,
+  "DefenseFinder_requires_review": 0,
+  "NCBI_validation_only": {
+    "reference_available": true,
+    "reference_sequence_exact": true,
+    "ncbi_cds": 4318,
+    "bakta_cds": 4315,
+    "exact_cds_coordinate_matches": 3908,
+    "ncbi_compound_cds": 20,
+    "comparison_basis": "full feature location including parts and strand",
+    "bakta_without_exact_reference_match": 407,
+    "ncbi_without_exact_bakta_match": 410
+  },
+  "limitations": [
+    "Bakta light DB used (not full)",
+    "InterProScan only for 234 initially hypothetical Bakta proteins",
+    "RegulonDB datasets excluded from integrated release pending license clearance",
+    "CRISPR spacer annotation not completed",
+    "Metabolic pathway reconstruction not performed",
+    "PHASTEST/DefenseFinder systems are predictions, not biological activity proofs"
+  ]
+}

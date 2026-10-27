@@ -1,20 +1,15 @@
-# DefenseFinder — genome coordinate integration
+# Результаты DefenseFinder
 
-Это проверенные координаты, извлеченные из заголовков Prodigal FASTA внутри исходного архива DefenseFinder. 9 систем / 23 белковых компонента.
+В этой папке сохранены 9 предсказанных защитных систем и 23 белковых компонента. Координаты были извлечены из заголовков Prodigal FASTA при подготовке набора. Полный исходный архив DefenseFinder здесь отсутствует, поэтому повторно проверить весь его разбор по этим файлам нельзя.
 
-Файлы:
-- defense_genes_with_coordinates.tsv — 23 компонента и исходные статистики моделей.
-- defense_systems_with_coordinates.tsv — 9 регионов и заметки интерпретации.
-- defense_system_regions.gff3 — интервалы-кандидаты, НЕ утвержденная функциональная активность.
-- defensefinder_component_proteins.faa — последовательности этих 23 компонентов из запуска DefenseFinder.
-- 04_defensefinder_ncbi_mapping.ipynb — проверка связи с NCBI gene/locus_tag.
+| Файл | Содержание |
+| --- | --- |
+| `defense_genes_with_coordinates.tsv` | Компоненты систем, координаты и статистики моделей |
+| `defense_systems_with_coordinates.tsv` | Интервалы систем и заметки об интерпретации |
+| `defensefinder_component_proteins.faa` | Последовательности 23 компонентов |
+| `defense_system_regions.gff3` | Подготовленный исходный трек областей |
+| `defensefinder_ncbi_gene_mapping.tsv` | Результат проверочного сопоставления с NCBI |
 
-Инструкция:
-1. Скопируйте TSV/GFF3/FAA в ~/Desktop/bioinformatics/projects/genome_annotation/results/specialized/defensefinder/
-2. Скопируйте .ipynb в ~/Desktop/bioinformatics/projects/genome_annotation/notebooks/
-3. Убедитесь, что data/processed/NC_000913.3.gbk существует (сохранен в предыдущих шагах).
-4. Откройте ноутбук в VS Code с kernel genome-base и выполните ячейки сверху вниз.
-5. Получится файл defensefinder_ncbi_gene_mapping.tsv и список неоднозначных сопоставлений.
+Запустите `notebooks/04_defensefinder_ncbi_mapping.ipynb`, чтобы пересоздать таблицу соответствий NCBI. При сборке выпуска ноутбук `06` отдельно сопоставляет компоненты с Bakta по координатам, цепи и белковой последовательности и создаёт трек с именем хромосомы из Bakta GFF3. Для просмотра вместе с основной аннотацией используйте этот трек из `results/release_v1_bakta/tracks/`.
 
-Важно: геномные координаты 1-based inclusive, длина референса 4,641,652 bp. Системные интервалы — min/max координат белковых компонентов, не экспериментально доказанные границы.
-Нельзя трактовать MODEL wholeness и score как прямые доказательства биологической активности.
+Координаты начинаются с 1, обе границы включены. Интервал системы — от минимального начала до максимального конца её компонентов. Он не описывает экспериментально установленные границы, а значения score и model wholeness не доказывают биологическую активность.

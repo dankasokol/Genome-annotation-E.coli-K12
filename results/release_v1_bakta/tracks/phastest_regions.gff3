@@ -1,0 +1,7 @@
+##gff-version 3
+##sequence-region contig_1 1 4641652
+contig_1	PHASTEST	region	564755	586057	.	.	.	ID=PHASTEST_1;Name=1;classification=questionable;score=90;Note=computational_prediction_not_proof_of_viability
+contig_1	PHASTEST	region	1198640	1216671	.	.	.	ID=PHASTEST_2;Name=2;classification=intact;score=100;Note=computational_prediction_not_proof_of_viability
+contig_1	PHASTEST	region	1411969	1434812	.	.	.	ID=PHASTEST_3;Name=3;classification=questionable;score=80;Note=computational_prediction_not_proof_of_viability
+contig_1	PHASTEST	region	1618855	1653915	.	.	.	ID=PHASTEST_4;Name=4;classification=intact;score=110;Note=computational_prediction_not_proof_of_viability
+contig_1	PHASTEST	region	2465301	2477629	.	.	.	ID=PHASTEST_5;Name=5;classification=incomplete;score=50;Note=computational_prediction_not_proof_of_viability
